@@ -1,0 +1,333 @@
+@charset "ISO-8859-1";
+a:hover {
+	color: rgba(107, 97, 97, 1.00);
+	
+}
+
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146, 146, 146, 1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#logo {
+	float: left;
+	width: 140px;
+	background-color: rgba(190, 190, 190, 1.00);
+}
+
+#headerLinks {
+	float: left;
+	width: calc( 100% - 140px);
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(146, 146, 146, 1.00);
+	padding-left: 66px;
+	font-size: 20px;
+}
+
+#banner {
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	background-color: rgba(246, 246, 246, 1.00);
+	color: rgba(146, 146, 146, 1.00);
+	text-align: center;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+
+#content {
+	overflow:hidden;
+	clear: both;
+	text-align: center;
+}
+
+#content .sidebar {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146, 146, 146, 1.00);
+	float: right;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: rgba(246, 246, 246, 1.00);
+	padding-top: 36px;
+	margin-bottom:-3000px;
+	padding-bottom:3000px; 
+	
+}
+
+#content .mainContent {
+	float: left;
+	width: 70%;
+	text-align: center;
+	padding-left: 4%;
+}
+
+#content .sidebar #search {
+	width: 100%;
+	border-radius: 0px;
+	height: 42px;
+	text-align: left;
+	color: rgba(207, 207, 207, 1.00);
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+#content .sidebar table {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+#content .sidebar table tr th{
+	border-bottom: 1px dotted #bbb;
+	
+}
+#content .mainContent .productRow {
+	overflow: auto;
+	color: rgba(146, 146, 146, 1.00);
+	padding-top: 6px;
+}
+
+.mainContent .productRow .productInfo {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 22%;
+}
+.mainContent .productRow .productInfo a{
+	text-decoration: none;
+}
+.productRow .productInfo .price {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146, 146, 146, 1.00);
+	font-size: 22px;
+	position: relative;
+	top: -20px;
+}
+
+.productRow .productInfo .productContent {
+	position: relative;
+	top: -37px;
+	font-size: 18px;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(146, 146, 146, 1.00);
+	white-space: pre-wrap;
+}
+
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: rgba(208, 207, 207, 1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.5;
+	padding-top: 2px;
+	padding-left: 3%;
+	text-align: center;
+	padding-bottom: 2px;
+	padding-right: 3.3%;
+}
+
+#mainWrapper footer div {
+	
+	width: 27%;
+	float: left;
+	padding-left: 4%;
+	padding-right: 2%;
+	color: rgba(255, 255, 255, 1.00);
+	text-align: justify;
+}
+
+#mainWrapper footer div a {
+	color: rgba(146, 146, 146, 1.00);
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+.productInfo div img {
+	width: 100%;
+	
+}
+
+#mainWrapper #content table {
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	color: #847D7D;
+}
+
+#mainWrapper #content .mainContent .QA{ 
+	width :90%;
+}
+#mainWrapper #content .mainContent .QA tr th{
+	border-bottom: 2px dotted #bbb;
+	height:50px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	color: #847D7D;
+	overflow:hidden;
+}
+#mainWrapper #content .mainContent .QA tr th input{
+	width:90%;
+
+}
+#mainWrapper #content  .Auctions{
+	width: 60%;	
+	float:right;
+}
+
+#mainWrapper #content  .Auctions tr th{
+	border-bottom: 2px dotted #bbb;
+	font-family: 'Montserrat', sans-serif;
+	overflow:hidden;
+	text-align: center;
+}
+#mainWrapper #content  .Bids{ 
+	width :100%;
+}
+#mainWrapper #content  .Bids tr th{
+	border-bottom: 2px dotted #bbb;
+	border-right: 2px dotted #bbb;
+	height:50px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	color: #847D7D;
+	overflow:hidden;
+	width:13%
+}
+#mainWrapper #content .Bids tr th:last-child{
+		border-right: none;
+}
+#mainWrapper #content table tr th{
+		width: 50%
+}
+#mainWrapper #content table tr th:last-child{
+		border-right: none;
+}
+
+#mainWrapper #content .changepage{
+	width :90%;
+}
+#mainWrapper #content .changepage tr th{
+	width:33%;
+	text-align: center;
+	border-right: 2px dotted #bbb;
+	font-family: 'Montserrat', sans-serif;
+}
+#mainWrapper #content .changepage tr th a{
+	color: rgba(146, 146, 146, 1.00);
+	text-decoration: none;
+}
+#mainWrapper #content .changepage tr th input{
+	width:20px;
+}
+#mainWrapper #content .choice{
+	text-align: center;
+}
+#mainWrapper #content .button {
+	position: relative;
+	width: 50%;
+	background-color: rgba(189, 45, 48, 1.00);
+	height: 35px;
+	color: rgba(255, 255, 255, 1.00);
+	border-style: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+#mainWrapper #content .text {
+	position: relative;
+	color: #847D7D;
+	font-size: 16px;
+	font-family: source-sans-pro, sans-serif;
+ 	text-align: left;
+ 	clear:both;
+}
+#mainWrapper #content .Pic {
+	position: relative;
+	float:left;
+	top:5px;
+	width: 30%;
+	clear:both;
+}
+#mainWrapper #content .Pic img{
+	width:100%;
+
+}
+#mainWrapper #content .text input{
+	width:80%;
+	height:20px;
+}
+#mainWrapper #content .text textarea{
+	width:80%;
+	height:200px;
+	vertical-align:middle;
+}
+#mainWrapper #nav {
+	overflow: hidden;
+	background-color: rgba(146, 146, 146, 1.00);
+}
+#mainWrapper #nav .ul {
+	list-style-type: none;
+	border: 1px solid #e7e7e7;
+}
+
+#mainWrapper #nav .li {
+	float: left;
+	border-right: 2px solid #bbb;
+}
+
+#mainWrapper #nav .li:last-child {
+	border-right: none;
+	float:right;
+}
+
+#mainWrapper #nav .li a {
+	display: block;
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#mainWrapper #nav .li a:hover:not(.active) {
+	background-color: rgba(107, 97, 97, 1.00);
+}
+
+#mainWrapper #nav .active {
+	background-color: rgba(189, 45, 48, 1.00);
+}
+#left, #right{
+	font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: 150px;
+    width: 110px;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(246, 246, 246, 1.00);
+    color: rgba(146, 146, 146, 1.00);
+}
+#left{
+    left: 1px;
+}
+#right{
+    right: 5px;
+}
